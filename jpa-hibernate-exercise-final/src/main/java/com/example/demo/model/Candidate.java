@@ -36,5 +36,5 @@ public class Candidate {
         this.candidateId = candidateId;
     }
 
-    // Other getters and setters omitted for brevity
+    
 }

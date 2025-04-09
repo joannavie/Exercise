@@ -1,0 +1,11 @@
+<h:form>
+    <h:outputLabel value="Enter Degree Title: " for="degreeTitle" />
+    <h:inputText id="degreeTitle" value="#{degreeBean.title}" />
+    <h:commandButton value="Add Degree" action="#{degreeBean.addDegree}" />
+</h:form>
+
+<h:form>
+    <h:outputLabel value="Enter Candidate Name: " for="candidateName" />
+    <h:inputText id="candidateName" value="#{candidateBean.name}" />
+    <h:commandButton value="Add Candidate" action="#{candidateBean.addCandidate}" />
+</h:form>
